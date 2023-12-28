@@ -1,0 +1,40 @@
+.header {
+    background: var(--white-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header, .header__menu-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0.5rem;
+}
+
+.header__search {
+    display: flex;
+}
+
+.header__input {
+    border: 1px solid var(--gray-color-2);
+    font-size: 18px;
+    padding: 0.5rem;
+    outline: none;
+}
+
+.header__button {
+    background: url('../../images/header/ico-search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--gray-color-2);
+    border: none;
+    width: 40px;
+}
+
+@media screen and (max-width: 740px) {
+    .header__search {
+        display: none;
+    }
+}
