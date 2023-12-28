@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('./header/header.css');
+@import url('./aside/aside.css');
+@import url('./main/main.css');
+@import url('./footer/footer.css');
+
+:root {
+    --black-color: #000000;
+    --blue-color-1: #154580;
+    --blue-color-2: #3970BE;
+    --blue-color-3: #E5F1FF;
+    --gray-color: #444444;
+    --gray-color-2: #ECECEC;
+    --white-color: #FFFFFF;
+
+    --roboto-font: "Roboto", sans-serif;
+}
+
+body {
+    background: var(--blue-color-3);
+    font-family: var(--roboto-font);
+    height: 100vh;
+    position: relative;
+}
