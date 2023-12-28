@@ -1,0 +1,8 @@
+@import url('./top-section/top-section.css');
+@import url('./video/video.css');
+@import url('./content/content.css');
+
+.container {
+    border-top: 1px solid var(--gray-color-2);
+    border-bottom: 1px solid var(--gray-color-2);
+}

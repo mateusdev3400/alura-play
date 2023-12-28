@@ -1,0 +1,28 @@
+.footer {
+    align-items: center;
+    background: var(--white-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer__menu-list {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.footer__menu-title {
+    color: var(--blue-color-2);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer__menu-item {
+    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
