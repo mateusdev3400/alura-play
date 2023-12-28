@@ -1,4 +1,4 @@
-# Alura Books
+# Alura Play
 
 ## About
 
